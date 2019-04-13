@@ -1,9 +1,4 @@
-'''
-id
-descriçao
-exceçao
-data
-'''
+
 class Troubleshooting(object):
     id=0
     descricao=''
@@ -12,6 +7,8 @@ class Troubleshooting(object):
     def __repr__(self):
         return str(self.__dict__)
 cadastro=[]
+'''
+apagar aspas para teste
 tbs1=Troubleshooting()
 tbs1.id=1
 tbs1.descricao='descrição item 1'
@@ -24,6 +21,7 @@ tbs2.exception='IndexArrayOutOfBoundException'
 tbs2.date='10/04/2019'
 cadastro.append(tbs1)
 cadastro.append(tbs2)
+'''
 textOpcao='Digite 1 para adicionar\nDigite 2 para listar\nDigite 3 para atualizar\nDigite 4 para deletar\nDigite 0 para sair: '
 opcao=input(textOpcao)
 while int(opcao)!=0:
